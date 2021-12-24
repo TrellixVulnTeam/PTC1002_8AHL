@@ -1,0 +1,40 @@
+<div class="content">
+    <div class="container-fluid">
+        <br/>
+        <div class="row">
+            <div class="col-md-1">
+            </div>
+            <div class="col-md-8">
+                <table class="table  table-bordered">
+                    <thead style="background: -webkit-gradient(linear, left bottom, left top, color-stop(0, #28b9da), color-stop(1, #f9fafc));">
+                        <tr class="HeaderRow">
+                            <td>%Numeric</td>
+                            <td>%AlphaNumeric</td>
+                            <td>%Float</td>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>
+                                {{numericPerct | number : '1.2-2' }}
+                            </td>
+                            <td>
+                                {{alphaNumericPerct | number : '1.2-2' }}
+                            </td>
+                            <td>
+                                {{floatPerct | number : '1.2-2' }}
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+                <ul type="none" style="padding-left:5px;">
+                    <li *ngFor="let a of reportDetailDto">
+                        {{a.numeric}}- numeric<br/> {{a.alphaNumeric}}- alphanumeric <br/>{{a.float}}- float
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+
+    </div>
+</div>

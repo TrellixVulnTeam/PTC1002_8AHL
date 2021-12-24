@@ -1,0 +1,82 @@
+<div class="content">
+    <div class="container-fluid">
+        <br/>
+        <div class="row">
+            <div class="col-md-1">
+            </div>
+            <div class="col-md-3">
+                <input type="checkbox" id="numeric" name="numeric" value="numeric">
+                <label for="vehicle1"> Numeric</label><br>
+                <input type="checkbox" id="alphanumeric" name="alphanumeric" value="alphanumeric">
+                <label for="vehicle2"> Alphanumeric</label><br>
+                <input type="checkbox" id="float" name="float" value="float">
+                <label for="vehicle3"> Float</label><br><br>
+            </div>
+            <div class="col-md-3">
+                <label for="application-no" class="control-label required">Size of the output file (KB)</label>
+                <input type="text" class="form-control" id="fileSize" name="fileSize" placeholder="Size of the output file" [(ngModel)]="fileSize">
+            </div>
+            <div class="col-md-3">
+            </div>
+        </div>
+        <br/>
+        <div class="row">
+            <div class="col-md-1">
+            </div>
+            <div class="col-md-1">
+                <button type="button" class="btn btn-sm btn-primary btn-embossed btn-add-product" style="float: right;  margin-right: 5px;" (click)="start()"><i class="fa fa-play"></i>&nbsp;&nbsp;Start</button>
+            </div>
+            <div class="col-md-1">
+                <button type="button" class="btn btn-sm btn-embossed btn-danger btn-add-product" style="float: right;" (click)="stop()"><i class="fa fa-stop" style="color: white;"></i>&nbsp;&nbsp;Stop</button>
+            </div>
+        </div>
+        <br/>
+        <div class="row">
+            <div class="col-md-1">
+            </div>
+            <div class="col-md-3">
+                <label for="counter1"> Counter 1 (Numberic)</label><br>
+            </div>
+            <div class="col-md-3">
+                <input type="text" class="form-control" id="numCounter" name="numCounter" [(ngModel)]="numCounter">
+            </div>
+            <div class="col-md-3">
+            </div>
+        </div>
+        <br/>
+        <div class="row">
+            <div class="col-md-1">
+            </div>
+            <div class="col-md-3">
+                <label for="counter2"> Counter 2 (Alphanumberic)</label><br>
+            </div>
+            <div class="col-md-3">
+                <input type="text" class="form-control" id="alphaCounter" name="alphaCounter" [(ngModel)]="alphaCounter">
+            </div>
+            <div class="col-md-3">
+            </div>
+        </div>
+        <br/>
+        <div class="row">
+            <div class="col-md-1">
+            </div>
+            <div class="col-md-3">
+                <label for="counter1"> Counter 3 (Float)</label><br>
+            </div>
+            <div class="col-md-3">
+                <input type="text" class="form-control" id="floatCounter" name="floatCounter" [(ngModel)]="floatCounter">
+            </div>
+            <div class="col-md-3">
+            </div>
+        </div>
+        <br/>
+        <div class="row">
+            <div class="col-md-2">
+            </div>
+            <div class="col-md-6">
+                <button type="button" class="btn btn-sm btn-success btn-embossed " (click)="viewReport()"><i class="fa fa-bar-chart"></i>&nbsp;&nbsp;Generate Report</button>
+            </div>
+
+        </div>
+    </div>
+</div>

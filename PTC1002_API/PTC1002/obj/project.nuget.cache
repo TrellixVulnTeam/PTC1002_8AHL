@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "B/ddfnkdu+B7JfKpJNRUHJ8fP2LO2yPysZIWeuubv5zbMRGVXEm1P4txI5E3EzF3w7CGk2VG8DlXKQpTIsPMAw==",
+  "success": true,
+  "projectFilePath": "G:\\ITSB\\PTC1002\\PTC1002_API\\PTC1002\\PTC1002.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Siam\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
+    "C:\\Users\\Siam\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\Siam\\.nuget\\packages\\swashbuckle.aspnetcore\\5.6.3\\swashbuckle.aspnetcore.5.6.3.nupkg.sha512",
+    "C:\\Users\\Siam\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\5.6.3\\swashbuckle.aspnetcore.swagger.5.6.3.nupkg.sha512",
+    "C:\\Users\\Siam\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\5.6.3\\swashbuckle.aspnetcore.swaggergen.5.6.3.nupkg.sha512",
+    "C:\\Users\\Siam\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\5.6.3\\swashbuckle.aspnetcore.swaggerui.5.6.3.nupkg.sha512"
+  ],
+  "logs": []
+}
